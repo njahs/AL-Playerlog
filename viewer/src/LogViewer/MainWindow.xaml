@@ -4,7 +4,7 @@
         xmlns:d3="http://research.microsoft.com/DynamicDataDisplay/1.0" 
         xmlns:WPF="clr-namespace:LogViewer.WPF"
         xmlns:Settings="clr-namespace:LogViewer.Properties"
-        Title="Configuration" Height="215" Width="525" Closing="Window_Closing" Loaded="Window_Loaded">
+        Title="AL Playerlog - Database connection" Height="215" Width="525" Closing="Window_Closing" Loaded="Window_Loaded">
     <Window.Resources>
         <ResourceDictionary>
             <ControlTemplate x:Key="tbstyle" TargetType="{x:Type WPF:DefaultTextBox}">
@@ -37,8 +37,8 @@
     </Window.Resources>
     <Grid>
         <StackPanel Margin="5">
-            <WPF:DefaultTextBox x:Name="serverTextbox" Text="{Binding Source={x:Static Settings:Settings.Default}, Path=server, Mode=TwoWay}" Height="32" FontSize="16" Template="{StaticResource tbstyle}" MarginEx="4,-3,0,0" UserText="Server Address (eg. localhost)" IsTabStop="False" BorderBrush="#FF515050" Margin="0,1,0,0"/>
-            <WPF:DefaultTextBox x:Name="databaseTextbox" Text="{Binding Source={x:Static Settings:Settings.Default}, Path=database, Mode=TwoWay}" Height="32" FontSize="16" Template="{StaticResource tbstyle}" MarginEx="4,-3,0,0" UserText="Database Name (eg. arma3life)" IsTabStop="False" BorderBrush="#FF515050" Margin="0,1,0,0"/>
+            <WPF:DefaultTextBox x:Name="serverTextbox" Text="{Binding Source={x:Static Settings:Settings.Default}, Path=server, Mode=TwoWay}" Height="32" FontSize="16" Template="{StaticResource tbstyle}" MarginEx="4,-3,0,0" UserText="Server Address" IsTabStop="False" BorderBrush="#FF515050" Margin="0,1,0,0"/>
+            <WPF:DefaultTextBox x:Name="databaseTextbox" Text="{Binding Source={x:Static Settings:Settings.Default}, Path=database, Mode=TwoWay}" Height="32" FontSize="16" Template="{StaticResource tbstyle}" MarginEx="4,-3,0,0" UserText="Database Name" IsTabStop="False" BorderBrush="#FF515050" Margin="0,1,0,0"/>
             <WPF:DefaultTextBox x:Name="usernameTextbox" Text="{Binding Source={x:Static Settings:Settings.Default}, Path=username, Mode=TwoWay}" Height="32" FontSize="16" Template="{StaticResource tbstyle}" MarginEx="4,-3,0,0" UserText="Username" IsTabStop="False" BorderBrush="#FF515050" Margin="0,1,0,0"/>
             <WPF:DefaultTextBox x:Name="passwordTextbox" Text="{Binding Source={x:Static Settings:Settings.Default}, Path=password, Mode=TwoWay}" Height="32" FontSize="16" Template="{StaticResource tbstyle}" MarginEx="4,-3,0,0" UserText="Password" IsTabStop="False" BorderBrush="#FF515050" Margin="0,1,0,0" FontFamily="/LogViewer;component/Fonts/#Password"/>
             <Grid Height="34" Margin="0,1,0,0">

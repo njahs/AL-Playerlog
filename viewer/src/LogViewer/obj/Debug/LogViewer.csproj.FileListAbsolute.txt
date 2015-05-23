@@ -2,7 +2,6 @@ c:\users\marco\documents\visual studio 2013\Projects\LogViewer\LogViewer\bin\Deb
 c:\users\marco\documents\visual studio 2013\Projects\LogViewer\LogViewer\bin\Debug\LogViewer.exe
 c:\users\marco\documents\visual studio 2013\Projects\LogViewer\LogViewer\bin\Debug\LogViewer.pdb
 c:\users\marco\documents\visual studio 2013\Projects\LogViewer\LogViewer\bin\Debug\DynamicDataDisplay.dll
-c:\users\marco\documents\visual studio 2013\Projects\LogViewer\LogViewer\obj\Debug\LogViewer.csprojResolveAssemblyReference.cache
 c:\users\marco\documents\visual studio 2013\Projects\LogViewer\LogViewer\obj\Debug\MainWindow.baml
 c:\users\marco\documents\visual studio 2013\Projects\LogViewer\LogViewer\obj\Debug\MainWindow.g.cs
 c:\users\marco\documents\visual studio 2013\Projects\LogViewer\LogViewer\obj\Debug\App.g.cs
