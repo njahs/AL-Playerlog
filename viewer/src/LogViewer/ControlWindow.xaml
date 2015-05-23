@@ -21,39 +21,39 @@
                                     DisplayMemberBinding="{Binding uid}"/>
                     <GridViewColumn Width="150" Header="Player ID" 
                                     DisplayMemberBinding="{Binding pid}"/>
-                    <GridViewColumn Width="175" Header="User Name" 
+                    <GridViewColumn Width="175" Header="Username" 
                                     DisplayMemberBinding="{Binding uname}"/>
                     <GridViewColumn Width="115" Header="Cash" 
                                     DisplayMemberBinding="{Binding ucash}"/>
-                    <GridViewColumn Width="115" Header="Bank Cash" 
+                    <GridViewColumn Width="115" Header="Bank" 
                                     DisplayMemberBinding="{Binding ubank}"/>
                 </GridView>
             </ListView.View>
         </ListView>
 
-        <Button Name="RefreshButton" Content="Refresh" 
+        <Button Name="RefreshButton" Content="Reload users" 
                 Margin="0,3,0,0" VerticalAlignment="Top" Width="142" HorizontalAlignment="Left" Height="40" 
                 Click="Button_Click" 
                 Grid.Row="1" />
         <CheckBox 
-                Content="Show Cash Difference" 
+                Content="Show cash" 
                 IsChecked="{Binding Source={x:Static Settings:Settings.Default}, Path=show_cash, Mode=TwoWay}" 
-                Margin="224,24,0,0" HorizontalAlignment="Left" Width="141" VerticalAlignment="Top" 
+                Margin="149,24,0,0" HorizontalAlignment="Left" Width="79" VerticalAlignment="Top" 
                 Grid.Row="1"/>
         <CheckBox 
-                Content="Show Bank Difference" 
+                Content="Show bank" 
                 IsChecked="{Binding Source={x:Static Settings:Settings.Default}, Path=show_bank, Mode=TwoWay}" 
-                Margin="147,3,0,0" HorizontalAlignment="Left" Width="143" VerticalAlignment="Top" 
+                Margin="147,3,0,0" HorizontalAlignment="Left" Width="81" VerticalAlignment="Top" 
                 Grid.Row="1"/>
         <CheckBox 
-                Content="Show Total Cash" 
+                Content="Show total cash" 
                 IsChecked="{Binding Source={x:Static Settings:Settings.Default}, Path=show_total, Mode=TwoWay}" 
-                Margin="295,3,0,0" HorizontalAlignment="Left" Width="108" Height="16" VerticalAlignment="Top"
+                Margin="233,3,0,0" HorizontalAlignment="Left" Width="108" Height="16" VerticalAlignment="Top"
                 Grid.Row="1" />
         <CheckBox 
-                Content="Stick this Window to the Chart Window" 
+                Content="Stick to control window" 
                 IsChecked="{Binding Source={x:Static Settings:Settings.Default}, Path=stick_window, Mode=TwoWay}" 
-                Margin="370,24,0,0" HorizontalAlignment="Left" Width="230" Height="16" VerticalAlignment="Top"
+                Margin="233,24,0,0" HorizontalAlignment="Left" Width="230" Height="16" VerticalAlignment="Top"
                 Grid.Row="1" />
     </Grid>
 </Window>
