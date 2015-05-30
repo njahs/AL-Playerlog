@@ -1,0 +1,16 @@
+mode0 = actual
+mode1 = difference
+
+[mode0]
+01 - Trigger create insert
+02 - Trigger create update
+
+[mode1]
+11 - Trigger create insert 
+12 - Trigger create update
+
+03 - Trigger delete insert
+04 - Trigger delete update
+05 - Table create 
+06 - Table drop
+07 - Table truncate (empty)
