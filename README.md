@@ -1,5 +1,7 @@
 **Altis Life Playerlog** is a Project that helps server administrators catching money hackers (Altis Life).
 
+****Project is inactive****
+
 ##Requirements
 
 * You need **[.NET Framework 4.5](https://www.microsoft.com/de-de/download/details.aspx?id=30653)** for the Playerlog.
